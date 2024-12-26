@@ -1,0 +1,36 @@
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/api/LicensorMetricsService.scala:44:14: SELECT x1.licensorUUID, x1.country, x1.marketShare FROM MarketSharePerCountry x1 WHERE x1.licensorUUID = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m    quill.run(countryMarketShareQuery)[0m
+[0m[[0m[0minfo[0m] [0m[0m             ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/api/LicensorMetricsService.scala:47:14: SELECT x2.licensorUUID, x2.country, x2.track FROM TopTrackPerCountry x2 WHERE x2.licensorUUID = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m    quill.run(topTrackPerCountryQuery)[0m
+[0m[[0m[0minfo[0m] [0m[0m             ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/api/LicensorMetricsService.scala:50:14: SELECT x3.licensorUUID, x3.tracks FROM TopTracks x3 WHERE x3.licensorUUID = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m    quill.run(topTracksQuery)[0m
+[0m[[0m[0minfo[0m] [0m[0m             ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/api/LicensorMetricsService.scala:53:14: SELECT x4.licensorUUID, x4.totalPlayTime FROM TotalPlayedTime x4 WHERE x4.licensorUUID = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m    quill.run(totalPlayedTimeQuery)[0m
+[0m[[0m[0minfo[0m] [0m[0m             ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/enrich/EnrichService.scala:49:57: SELECT location.id, location.country FROM Location location WHERE location.country = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m    ): ZIO[Any, SQLException, List[Location]] = quillRun([0m
+[0m[[0m[0minfo[0m] [0m[0m                                                        ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/enrich/EnrichService.scala:55:54: SELECT track.id, track.licensor FROM Track track WHERE track.licensor = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m    ): ZIO[Any, SQLException, List[Track]] = quillRun([0m
+[0m[[0m[0minfo[0m] [0m[0m                                                     ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/enrich/EnrichService.scala:60:15: SELECT play.locationid, play.trackid, play.playedMs FROM Play play WHERE play.trackid = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m      quillRun([0m
+[0m[[0m[0minfo[0m] [0m[0m              ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/enrich/EnrichService.scala:66:53: SELECT play.locationid, play.trackid, play.playedMs FROM Play play WHERE play.locationid = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m    ): ZIO[Any, SQLException, List[Play]] = quillRun([0m
+[0m[[0m[0minfo[0m] [0m[0m                                                    ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/enrich/EnrichService.scala:70:77: SELECT x.id, x.country FROM Location x[0m
+[0m[[0m[0minfo[0m] [0m[0m    def getAllLocations(): ZIO[Any, SQLException, List[Location]] = quillRun([0m
+[0m[[0m[0minfo[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/enrich/EnrichService.scala:74:71: SELECT x.id, x.licensor FROM Track x[0m
+[0m[[0m[0minfo[0m] [0m[0m    def getAllTracks(): ZIO[Any, SQLException, List[Track]] = quillRun([0m
+[0m[[0m[0minfo[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/enrich/EnrichService.scala:78:69: SELECT x.locationid, x.trackid, x.playedMs FROM Play x[0m
+[0m[[0m[0minfo[0m] [0m[0m    def getAllPlays(): ZIO[Any, SQLException, List[Play]] = quillRun([0m
+[0m[[0m[0minfo[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jcbraz/Projects/royalties-insights-api/src/main/scala/com/royaltiesInsights/enrich/EnrichService.scala:83:15: INSERT INTO Play (locationid,trackid,playedMs) VALUES (?, ?, ?)[0m
+[0m[[0m[0minfo[0m] [0m[0m      quillRun([0m
+[0m[[0m[0minfo[0m] [0m[0m              ^[0m
