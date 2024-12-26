@@ -1,0 +1,1459 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "royalties-insights-api",
+        "directory": "/Users/jcbraz/Projects/royalties-insights-api",
+        "workspaceDir": "/Users/jcbraz/Projects/royalties-insights-api",
+        "sources": [
+            "/Users/jcbraz/Projects/royalties-insights-api/src/main/scala",
+            "/Users/jcbraz/Projects/royalties-insights-api/src/main/scala-2.12",
+            "/Users/jcbraz/Projects/royalties-insights-api/src/main/scala-2",
+            "/Users/jcbraz/Projects/royalties-insights-api/src/main/java",
+            "/Users/jcbraz/Projects/royalties-insights-api/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-library.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_2.12/2.1.14/zio_2.12-2.1.14.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-postgres_2.12/0.1.2/zio-sql-postgres_2.12-0.1.2.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban_2.12/2.8.1/caliban_2.12-2.8.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban-quick_2.12/2.8.1/caliban-quick_2.12-2.8.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc-zio_2.12/4.8.5/quill-jdbc-zio_2.12-4.8.5.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.4.3/postgresql-42.4.3.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-internal-macros_2.12/2.1.14/zio-internal-macros_2.12-2.1.14.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.12/2.1.14/zio-stacktracer_2.12-2.1.14.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_2.12/2.3.10/izumi-reflect_2.12-2.3.10.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-jdbc_2.12/0.1.2/zio-sql-jdbc_2.12-0.1.2.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-driver_2.12/0.1.2/zio-sql-driver_2.12-0.1.2.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban-macros_2.12/2.8.1/caliban-macros_2.12-2.8.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/3.1.0/fastparse_2.12-3.1.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-streams_2.12/2.1.12/zio-streams_2.12-2.1.12.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-query_2.12/0.7.3/zio-query_2.12-0.7.3.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-http_2.12/3.0.0-RC9/zio-http_2.12-3.0.0-RC9.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.30.1/jsoniter-scala-core_2.12-2.30.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-zio_2.12/4.8.5/quill-zio_2.12-4.8.5.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-sql_2.12/4.8.5/quill-sql_2.12-4.8.5.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc_2.12/4.8.5/quill-jdbc_2.12-4.8.5.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/6.2.1/HikariCP-6.2.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-json_2.12/0.7.3/zio-json_2.12-0.7.3.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/2.3.10/izumi-reflect-thirdparty-boopickle-shaded_2.12-2.3.10.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql_2.12/0.1.2/zio-sql_2.12-0.1.2.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema_2.12/1.2.1/zio-schema_2.12-1.2.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-derivation_2.12/1.2.1/zio-schema-derivation_2.12-1.2.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/magnolia1_2/magnolia_2.12/1.1.10/magnolia_2.12-1.1.10.jar",
+            "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.0/sourcecode_2.12-0.4.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/1.1.0/geny_2.12-1.1.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-json_2.12/1.2.1/zio-schema-json_2.12-1.2.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-protobuf_2.12/1.2.1/zio-schema-protobuf_2.12-1.2.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.109.Final/netty-codec-http-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.109.Final/netty-handler-proxy-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.109.Final/netty-transport-native-epoll-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.109.Final/netty-transport-native-epoll-4.1.109.Final-linux-x86_64.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.109.Final/netty-transport-native-epoll-4.1.109.Final-linux-aarch_64.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.109.Final/netty-transport-native-kqueue-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.109.Final/netty-transport-native-kqueue-4.1.109.Final-osx-x86_64.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.109.Final/netty-transport-native-kqueue-4.1.109.Final-osx-aarch_64.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-native-io_uring/0.0.25.Final/netty-incubator-transport-native-io_uring-0.0.25.Final-linux-x86_64.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-core_2.12/4.8.5/quill-core_2.12-4.8.5.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-engine_2.12/4.8.5/quill-engine_2.12-4.8.5.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-macros_2.12/0.1.2/zio-sql-macros_2.12-0.1.2.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-macros_2.12/1.2.1/zio-schema-macros_2.12-1.2.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude_2.12/1.0.0-RC33/zio-prelude_2.12-1.0.0-RC33.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-constraintless_2.12/0.3.2/zio-constraintless_2.12-0.3.2.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.109.Final/netty-common-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.109.Final/netty-buffer-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.109.Final/netty-transport-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.109.Final/netty-codec-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.109.Final/netty-handler-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.109.Final/netty-codec-socks-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.109.Final/netty-transport-native-unix-common-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.109.Final/netty-transport-classes-epoll-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.109.Final/netty-transport-classes-kqueue-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.25.Final/netty-incubator-transport-classes-io_uring-0.0.25.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging_2.12/2.4.0/zio-logging_2.12-2.4.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.5/scala-logging_2.12-3.9.5.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/takayahilton/sql-formatter_2.12/1.2.1/sql-formatter_2.12-1.2.1.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/suzaku/boopickle_2.12/1.5.0/boopickle_2.12-1.5.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude-macros_2.12/1.0.0-RC33/zio-prelude-macros_2.12-1.0.0-RC33.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.109.Final/netty-resolver-4.1.109.Final.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-parser_2.12/0.1.10/zio-parser_2.12-0.1.10.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar",
+            "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar"
+        ],
+        "out": "/Users/jcbraz/Projects/royalties-insights-api/.bloop/royalties-insights-api",
+        "classesDir": "/Users/jcbraz/Projects/royalties-insights-api/.bloop/royalties-insights-api/scala-2.12/classes",
+        "resources": [
+            "/Users/jcbraz/Projects/royalties-insights-api/src/main/resources",
+            "/Users/jcbraz/Projects/royalties-insights-api/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.18",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-library.jar",
+                "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-compiler.jar",
+                "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar",
+                "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-xml_2.12-2.1.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/jcbraz/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%252B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.21_9.tar.gz/jdk-11.0.21+9/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/jcbraz/Projects/royalties-insights-api"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "/Users/jcbraz/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%252B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.21_9.tar.gz/jdk-11.0.21+9/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/jcbraz/Projects/royalties-insights-api"
+                ]
+            },
+            "classpath": [
+                "/Users/jcbraz/Projects/royalties-insights-api/.bloop/royalties-insights-api/scala-2.12/classes",
+                "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-library.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_2.12/2.1.14/zio_2.12-2.1.14.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-postgres_2.12/0.1.2/zio-sql-postgres_2.12-0.1.2.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban_2.12/2.8.1/caliban_2.12-2.8.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban-quick_2.12/2.8.1/caliban-quick_2.12-2.8.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc-zio_2.12/4.8.5/quill-jdbc-zio_2.12-4.8.5.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.4.3/postgresql-42.4.3.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-internal-macros_2.12/2.1.14/zio-internal-macros_2.12-2.1.14.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.12/2.1.14/zio-stacktracer_2.12-2.1.14.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_2.12/2.3.10/izumi-reflect_2.12-2.3.10.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-jdbc_2.12/0.1.2/zio-sql-jdbc_2.12-0.1.2.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-driver_2.12/0.1.2/zio-sql-driver_2.12-0.1.2.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban-macros_2.12/2.8.1/caliban-macros_2.12-2.8.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/3.1.0/fastparse_2.12-3.1.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-streams_2.12/2.1.12/zio-streams_2.12-2.1.12.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-query_2.12/0.7.3/zio-query_2.12-0.7.3.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-http_2.12/3.0.0-RC9/zio-http_2.12-3.0.0-RC9.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.30.1/jsoniter-scala-core_2.12-2.30.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-zio_2.12/4.8.5/quill-zio_2.12-4.8.5.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-sql_2.12/4.8.5/quill-sql_2.12-4.8.5.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc_2.12/4.8.5/quill-jdbc_2.12-4.8.5.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/6.2.1/HikariCP-6.2.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-json_2.12/0.7.3/zio-json_2.12-0.7.3.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/2.3.10/izumi-reflect-thirdparty-boopickle-shaded_2.12-2.3.10.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql_2.12/0.1.2/zio-sql_2.12-0.1.2.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema_2.12/1.2.1/zio-schema_2.12-1.2.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-derivation_2.12/1.2.1/zio-schema-derivation_2.12-1.2.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/magnolia1_2/magnolia_2.12/1.1.10/magnolia_2.12-1.1.10.jar",
+                "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.0/sourcecode_2.12-0.4.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/1.1.0/geny_2.12-1.1.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-json_2.12/1.2.1/zio-schema-json_2.12-1.2.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-protobuf_2.12/1.2.1/zio-schema-protobuf_2.12-1.2.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.109.Final/netty-codec-http-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.109.Final/netty-handler-proxy-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.109.Final/netty-transport-native-epoll-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.109.Final/netty-transport-native-epoll-4.1.109.Final-linux-x86_64.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.109.Final/netty-transport-native-epoll-4.1.109.Final-linux-aarch_64.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.109.Final/netty-transport-native-kqueue-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.109.Final/netty-transport-native-kqueue-4.1.109.Final-osx-x86_64.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.109.Final/netty-transport-native-kqueue-4.1.109.Final-osx-aarch_64.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-native-io_uring/0.0.25.Final/netty-incubator-transport-native-io_uring-0.0.25.Final-linux-x86_64.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-core_2.12/4.8.5/quill-core_2.12-4.8.5.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-engine_2.12/4.8.5/quill-engine_2.12-4.8.5.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-macros_2.12/0.1.2/zio-sql-macros_2.12-0.1.2.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-macros_2.12/1.2.1/zio-schema-macros_2.12-1.2.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude_2.12/1.0.0-RC33/zio-prelude_2.12-1.0.0-RC33.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-constraintless_2.12/0.3.2/zio-constraintless_2.12-0.3.2.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.109.Final/netty-common-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.109.Final/netty-buffer-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.109.Final/netty-transport-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.109.Final/netty-codec-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.109.Final/netty-handler-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.109.Final/netty-codec-socks-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.109.Final/netty-transport-native-unix-common-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.109.Final/netty-transport-classes-epoll-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.109.Final/netty-transport-classes-kqueue-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.25.Final/netty-incubator-transport-classes-io_uring-0.0.25.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging_2.12/2.4.0/zio-logging_2.12-2.4.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.5/scala-logging_2.12-3.9.5.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/takayahilton/sql-formatter_2.12/1.2.1/sql-formatter_2.12-1.2.1.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/suzaku/boopickle_2.12/1.5.0/boopickle_2.12-1.5.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude-macros_2.12/1.0.0-RC33/zio-prelude-macros_2.12-1.0.0-RC33.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.109.Final/netty-resolver-4.1.109.Final.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-parser_2.12/0.1.10/zio-parser_2.12-0.1.10.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar",
+                "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.18/scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio_2.12",
+                    "version": "2.1.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_2.12/2.1.14/zio_2.12-2.1.14.jar"
+                        },
+                        {
+                            "name": "zio_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_2.12/2.1.14/zio_2.12-2.1.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-sql-postgres_2.12",
+                    "version": "0.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-sql-postgres_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-postgres_2.12/0.1.2/zio-sql-postgres_2.12-0.1.2.jar"
+                        },
+                        {
+                            "name": "zio-sql-postgres_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-postgres_2.12/0.1.2/zio-sql-postgres_2.12-0.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ghostdogpr",
+                    "name": "caliban_2.12",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "caliban_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban_2.12/2.8.1/caliban_2.12-2.8.1.jar"
+                        },
+                        {
+                            "name": "caliban_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban_2.12/2.8.1/caliban_2.12-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ghostdogpr",
+                    "name": "caliban-quick_2.12",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "caliban-quick_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban-quick_2.12/2.8.1/caliban-quick_2.12-2.8.1.jar"
+                        },
+                        {
+                            "name": "caliban-quick_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban-quick_2.12/2.8.1/caliban-quick_2.12-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-jdbc-zio_2.12",
+                    "version": "4.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-jdbc-zio_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc-zio_2.12/4.8.5/quill-jdbc-zio_2.12-4.8.5.jar"
+                        },
+                        {
+                            "name": "quill-jdbc-zio_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc-zio_2.12/4.8.5/quill-jdbc-zio_2.12-4.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "42.4.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "postgresql",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.4.3/postgresql-42.4.3.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.4.3/postgresql-42.4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-internal-macros_2.12",
+                    "version": "2.1.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-internal-macros_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-internal-macros_2.12/2.1.14/zio-internal-macros_2.12-2.1.14.jar"
+                        },
+                        {
+                            "name": "zio-internal-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-internal-macros_2.12/2.1.14/zio-internal-macros_2.12-2.1.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-stacktracer_2.12",
+                    "version": "2.1.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-stacktracer_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.12/2.1.14/zio-stacktracer_2.12-2.1.14.jar"
+                        },
+                        {
+                            "name": "zio-stacktracer_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.12/2.1.14/zio-stacktracer_2.12-2.1.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "izumi-reflect_2.12",
+                    "version": "2.3.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "izumi-reflect_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_2.12/2.3.10/izumi-reflect_2.12-2.3.10.jar"
+                        },
+                        {
+                            "name": "izumi-reflect_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_2.12/2.3.10/izumi-reflect_2.12-2.3.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-sql-jdbc_2.12",
+                    "version": "0.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-sql-jdbc_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-jdbc_2.12/0.1.2/zio-sql-jdbc_2.12-0.1.2.jar"
+                        },
+                        {
+                            "name": "zio-sql-jdbc_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-jdbc_2.12/0.1.2/zio-sql-jdbc_2.12-0.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-sql-driver_2.12",
+                    "version": "0.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-sql-driver_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-driver_2.12/0.1.2/zio-sql-driver_2.12-0.1.2.jar"
+                        },
+                        {
+                            "name": "zio-sql-driver_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-driver_2.12/0.1.2/zio-sql-driver_2.12-0.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ghostdogpr",
+                    "name": "caliban-macros_2.12",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "caliban-macros_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban-macros_2.12/2.8.1/caliban-macros_2.12-2.8.1.jar"
+                        },
+                        {
+                            "name": "caliban-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghostdogpr/caliban-macros_2.12/2.8.1/caliban-macros_2.12-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "fastparse_2.12",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fastparse_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/3.1.0/fastparse_2.12-3.1.0.jar"
+                        },
+                        {
+                            "name": "fastparse_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/3.1.0/fastparse_2.12-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.12",
+                    "version": "2.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-streams_2.12",
+                    "version": "2.1.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-streams_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-streams_2.12/2.1.12/zio-streams_2.12-2.1.12.jar"
+                        },
+                        {
+                            "name": "zio-streams_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-streams_2.12/2.1.12/zio-streams_2.12-2.1.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-query_2.12",
+                    "version": "0.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-query_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-query_2.12/0.7.3/zio-query_2.12-0.7.3.jar"
+                        },
+                        {
+                            "name": "zio-query_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-query_2.12/0.7.3/zio-query_2.12-0.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-http_2.12",
+                    "version": "3.0.0-RC9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-http_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-http_2.12/3.0.0-RC9/zio-http_2.12-3.0.0-RC9.jar"
+                        },
+                        {
+                            "name": "zio-http_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-http_2.12/3.0.0-RC9/zio-http_2.12-3.0.0-RC9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.plokhotnyuk.jsoniter-scala",
+                    "name": "jsoniter-scala-core_2.12",
+                    "version": "2.30.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsoniter-scala-core_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.30.1/jsoniter-scala-core_2.12-2.30.1.jar"
+                        },
+                        {
+                            "name": "jsoniter-scala-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.30.1/jsoniter-scala-core_2.12-2.30.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-zio_2.12",
+                    "version": "4.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-zio_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-zio_2.12/4.8.5/quill-zio_2.12-4.8.5.jar"
+                        },
+                        {
+                            "name": "quill-zio_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-zio_2.12/4.8.5/quill-zio_2.12-4.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-sql_2.12",
+                    "version": "4.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-sql_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-sql_2.12/4.8.5/quill-sql_2.12-4.8.5.jar"
+                        },
+                        {
+                            "name": "quill-sql_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-sql_2.12/4.8.5/quill-sql_2.12-4.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-jdbc_2.12",
+                    "version": "4.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-jdbc_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc_2.12/4.8.5/quill-jdbc_2.12-4.8.5.jar"
+                        },
+                        {
+                            "name": "quill-jdbc_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc_2.12/4.8.5/quill-jdbc_2.12-4.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.zaxxer",
+                    "name": "HikariCP",
+                    "version": "6.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "HikariCP",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/6.2.1/HikariCP-6.2.1.jar"
+                        },
+                        {
+                            "name": "HikariCP",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/6.2.1/HikariCP-6.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-json_2.12",
+                    "version": "0.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-json_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-json_2.12/0.7.3/zio-json_2.12-0.7.3.jar"
+                        },
+                        {
+                            "name": "zio-json_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-json_2.12/0.7.3/zio-json_2.12-0.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.37.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "izumi-reflect-thirdparty-boopickle-shaded_2.12",
+                    "version": "2.3.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "izumi-reflect-thirdparty-boopickle-shaded_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/2.3.10/izumi-reflect-thirdparty-boopickle-shaded_2.12-2.3.10.jar"
+                        },
+                        {
+                            "name": "izumi-reflect-thirdparty-boopickle-shaded_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/2.3.10/izumi-reflect-thirdparty-boopickle-shaded_2.12-2.3.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-sql_2.12",
+                    "version": "0.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-sql_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql_2.12/0.1.2/zio-sql_2.12-0.1.2.jar"
+                        },
+                        {
+                            "name": "zio-sql_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql_2.12/0.1.2/zio-sql_2.12-0.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema_2.12",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema_2.12/1.2.1/zio-schema_2.12-1.2.1.jar"
+                        },
+                        {
+                            "name": "zio-schema_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema_2.12/1.2.1/zio-schema_2.12-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema-derivation_2.12",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema-derivation_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-derivation_2.12/1.2.1/zio-schema-derivation_2.12-1.2.1.jar"
+                        },
+                        {
+                            "name": "zio-schema-derivation_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-derivation_2.12/1.2.1/zio-schema-derivation_2.12-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.magnolia1_2",
+                    "name": "magnolia_2.12",
+                    "version": "1.1.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "magnolia_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/magnolia1_2/magnolia_2.12/1.1.10/magnolia_2.12-1.1.10.jar"
+                        },
+                        {
+                            "name": "magnolia_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/magnolia1_2/magnolia_2.12/1.1.10/magnolia_2.12-1.1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.18/scala-reflect-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_2.12",
+                    "version": "0.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sourcecode_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.0/sourcecode_2.12-0.4.0.jar"
+                        },
+                        {
+                            "name": "sourcecode_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.0/sourcecode_2.12-0.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.12",
+                    "version": "1.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/1.1.0/geny_2.12-1.1.0.jar"
+                        },
+                        {
+                            "name": "geny_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/1.1.0/geny_2.12-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema-json_2.12",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema-json_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-json_2.12/1.2.1/zio-schema-json_2.12-1.2.1.jar"
+                        },
+                        {
+                            "name": "zio-schema-json_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-json_2.12/1.2.1/zio-schema-json_2.12-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema-protobuf_2.12",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema-protobuf_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-protobuf_2.12/1.2.1/zio-schema-protobuf_2.12-1.2.1.jar"
+                        },
+                        {
+                            "name": "zio-schema-protobuf_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-protobuf_2.12/1.2.1/zio-schema-protobuf_2.12-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.109.Final/netty-codec-http-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.109.Final/netty-codec-http-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.109.Final/netty-handler-proxy-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.109.Final/netty-handler-proxy-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-epoll",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.109.Final/netty-transport-native-epoll-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.109.Final/netty-transport-native-epoll-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-kqueue",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-kqueue",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.109.Final/netty-transport-native-kqueue-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-kqueue",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.109.Final/netty-transport-native-kqueue-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-core_2.12",
+                    "version": "4.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-core_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-core_2.12/4.8.5/quill-core_2.12-4.8.5.jar"
+                        },
+                        {
+                            "name": "quill-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-core_2.12/4.8.5/quill-core_2.12-4.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-engine_2.12",
+                    "version": "4.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-engine_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-engine_2.12/4.8.5/quill-engine_2.12-4.8.5.jar"
+                        },
+                        {
+                            "name": "quill-engine_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-engine_2.12/4.8.5/quill-engine_2.12-4.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-sql-macros_2.12",
+                    "version": "0.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-sql-macros_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-macros_2.12/0.1.2/zio-sql-macros_2.12-0.1.2.jar"
+                        },
+                        {
+                            "name": "zio-sql-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-sql-macros_2.12/0.1.2/zio-sql-macros_2.12-0.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema-macros_2.12",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema-macros_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-macros_2.12/1.2.1/zio-schema-macros_2.12-1.2.1.jar"
+                        },
+                        {
+                            "name": "zio-schema-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-macros_2.12/1.2.1/zio-schema-macros_2.12-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-prelude_2.12",
+                    "version": "1.0.0-RC33",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-prelude_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude_2.12/1.0.0-RC33/zio-prelude_2.12-1.0.0-RC33.jar"
+                        },
+                        {
+                            "name": "zio-prelude_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude_2.12/1.0.0-RC33/zio-prelude_2.12-1.0.0-RC33-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-constraintless_2.12",
+                    "version": "0.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-constraintless_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-constraintless_2.12/0.3.2/zio-constraintless_2.12-0.3.2.jar"
+                        },
+                        {
+                            "name": "zio-constraintless_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-constraintless_2.12/0.3.2/zio-constraintless_2.12-0.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.109.Final/netty-common-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.109.Final/netty-common-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.109.Final/netty-buffer-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.109.Final/netty-buffer-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.109.Final/netty-transport-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.109.Final/netty-transport-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.109.Final/netty-codec-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.109.Final/netty-codec-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.109.Final/netty-handler-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.109.Final/netty-handler-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.109.Final/netty-codec-socks-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.109.Final/netty-codec-socks-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.109.Final/netty-transport-native-unix-common-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.109.Final/netty-transport-native-unix-common-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-epoll",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.109.Final/netty-transport-classes-epoll-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.109.Final/netty-transport-classes-epoll-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-kqueue",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-kqueue",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.109.Final/netty-transport-classes-kqueue-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-kqueue",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.109.Final/netty-transport-classes-kqueue-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty.incubator",
+                    "name": "netty-incubator-transport-classes-io_uring",
+                    "version": "0.0.25.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-incubator-transport-classes-io_uring",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.25.Final/netty-incubator-transport-classes-io_uring-0.0.25.Final.jar"
+                        },
+                        {
+                            "name": "netty-incubator-transport-classes-io_uring",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.25.Final/netty-incubator-transport-classes-io_uring-0.0.25.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-logging_2.12",
+                    "version": "2.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-logging_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging_2.12/2.4.0/zio-logging_2.12-2.4.0.jar"
+                        },
+                        {
+                            "name": "zio-logging_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging_2.12/2.4.0/zio-logging_2.12-2.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_2.12",
+                    "version": "3.9.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.5/scala-logging_2.12-3.9.5.jar"
+                        },
+                        {
+                            "name": "scala-logging_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.5/scala-logging_2.12-3.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.takayahilton",
+                    "name": "sql-formatter_2.12",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sql-formatter_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/takayahilton/sql-formatter_2.12/1.2.1/sql-formatter_2.12-1.2.1.jar"
+                        },
+                        {
+                            "name": "sql-formatter_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/takayahilton/sql-formatter_2.12/1.2.1/sql-formatter_2.12-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.suzaku",
+                    "name": "boopickle_2.12",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "boopickle_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/suzaku/boopickle_2.12/1.5.0/boopickle_2.12-1.5.0.jar"
+                        },
+                        {
+                            "name": "boopickle_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/suzaku/boopickle_2.12/1.5.0/boopickle_2.12-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "pprint_2.12",
+                    "version": "0.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pprint_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar"
+                        },
+                        {
+                            "name": "pprint_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ben-manes.caffeine",
+                    "name": "caffeine",
+                    "version": "3.1.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "caffeine",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar"
+                        },
+                        {
+                            "name": "caffeine",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-prelude-macros_2.12",
+                    "version": "1.0.0-RC33",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-prelude-macros_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude-macros_2.12/1.0.0-RC33/zio-prelude-macros_2.12-1.0.0-RC33.jar"
+                        },
+                        {
+                            "name": "zio-prelude-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude-macros_2.12/1.0.0-RC33/zio-prelude-macros_2.12-1.0.0-RC33-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.109.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.109.Final/netty-resolver-4.1.109.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.109.Final/netty-resolver-4.1.109.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-parser_2.12",
+                    "version": "0.1.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-parser_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-parser_2.12/0.1.10/zio-parser_2.12-0.1.10.jar"
+                        },
+                        {
+                            "name": "zio-parser_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-parser_2.12/0.1.10/zio-parser_2.12-0.1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "fansi_2.12",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fansi_2.12",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar"
+                        },
+                        {
+                            "name": "fansi_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/jcbraz/.sbt/boot/scala-2.12.18/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/jcbraz/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.18/scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
