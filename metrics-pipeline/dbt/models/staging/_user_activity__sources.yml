@@ -1,0 +1,58 @@
+version: 2
+
+sources:
+  - name: user_activity
+    database: neondb
+    schema: public
+    tables:
+      - name: play
+        columns:
+          - name: locationid
+            description: "locations table foreign key"
+            data_tests:
+              - not_null # potential strategy if comes to be null
+
+          - name: trackid
+            description: "tracks table foreign key"
+            data_tests:
+              - not_null
+
+          - name: playedMs
+            description: "plays fact event (duration for a track for a location)"
+
+          - name: processed_time
+            description: timestamp batch was processed (tracking)
+            data_tests:
+              - not_null
+
+      - name: location
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
+
+          - name: country
+            data_tests:
+              - not_null
+
+          - name: processed_time
+            description: timestamp batch was processed (tracking)
+            data_tests:
+              - not_null
+
+      - name: track
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
+
+          - name: licensor
+            data_tests:
+              - not_null
+
+          - name: processed_time
+            description: timestamp batch was processed (tracking)
+            data_tests:
+              - not_null
