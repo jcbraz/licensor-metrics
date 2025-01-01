@@ -1,0 +1,12 @@
+dagster
+dagster-webserver
+dagster-dbt
+polars
+loguru
+pyarrow
+connectorx
+dagster-gcp
+dagster-gcp-pandas
+dbt-core
+dbt-bigquery
+dbt-postgres
