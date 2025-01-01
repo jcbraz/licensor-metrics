@@ -2,30 +2,41 @@ version: 2
 
 sources:
   - name: user_activity
-    database: neondb
-    schema: public
+    database: licensor-metrics
+    dataset: user_activity
     tables:
-      - name: play
+      - name: plays
+        meta:
+          dagster:
+            asset_key: ["ingest_plays"]
         columns:
-          - name: locationid
+          - name: location_id
             description: "locations table foreign key"
             data_tests:
               - not_null # potential strategy if comes to be null
 
-          - name: trackid
+          - name: track_id
             description: "tracks table foreign key"
             data_tests:
               - not_null
 
-          - name: playedMs
+          - name: played_ms
             description: "plays fact event (duration for a track for a location)"
 
           - name: processed_time
             description: timestamp batch was processed (tracking)
             data_tests:
               - not_null
+              
+          - name: batch_id
+            description: uuid indicating batch id
+            data_tests:
+              - not_null
 
-      - name: location
+      - name: locations
+        meta:
+          dagster:
+            asset_key: ["ingest_locations"]
         columns:
           - name: id
             data_tests:
@@ -40,8 +51,16 @@ sources:
             description: timestamp batch was processed (tracking)
             data_tests:
               - not_null
+            
+          - name: batch_id
+            description: uuid indicating batch id
+            data_tests:
+              - not_null
 
-      - name: track
+      - name: tracks
+        meta:
+          dagster:
+            asset_key: ["ingest_tracks"]
         columns:
           - name: id
             data_tests:
@@ -54,5 +73,10 @@ sources:
 
           - name: processed_time
             description: timestamp batch was processed (tracking)
+            data_tests:
+              - not_null
+
+          - name: batch_id
+            description: uuid indicating batch id
             data_tests:
               - not_null

@@ -64,3 +64,18 @@
 1735316280249:compile
 1735316283105:runMain com.royaltiesInsights.enrich.EnrichDatabase
 1735316502619:exit
+1735385623338:clear
+1735385625124:exit
+1735385633025:compile
+1735385635878:runMain com.royaltiesInsights.enrich.EnrichDatabase
+1735399837792:compile
+1735399839496:runMain com.royaltiesInsights.enrich.EnrichDatabase
+1735479439145:compile
+1735479446514:runMain com.royaltiesInsights.enrich.EnrichDatabase
+1735487606455:compie
+1735487609487:compile
+1735487612937:runMain com.royaltiesInsights.enrich.EnrichDatabase
+1735646330316:exit
+1735646338915:runMain com.royaltiesInsights.enrich.EnrichDatabase
+1735661758750:compile
+1735661760909:runMain com.royaltiesInsights.enrich.EnrichDatabase

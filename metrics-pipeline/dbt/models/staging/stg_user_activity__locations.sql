@@ -2,18 +2,12 @@
     materialized='incremental'
 ) }}
 
-{% if is_incremental() %}
-WITH last_processed AS (
-    SELECT MAX(processed_time) as max_time 
-    FROM {{ this }}
-)
-{% endif %}
 
 SELECT
     id,
     country,
     processed_time
-FROM {{ source('user_activity', 'location') }}
+FROM {{ source('user_activity', 'locations') }}
 {% if is_incremental() %}
-WHERE processed_time > (SELECT max_time FROM last_processed)
+WHERE processed_time > (SELECT MAX(processed_time) FROM {{ this }})
 {% endif %}

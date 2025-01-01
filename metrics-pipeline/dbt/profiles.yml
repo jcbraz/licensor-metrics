@@ -1,0 +1,12 @@
+licensor_metrics:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      keyfile: /Users/jcbraz/Projects/royalties-insights-api/metrics-pipeline/dbt/gcp_credentials.json
+      project: licensor-metrics
+      dataset: user_activity
+      job_execution_timeout_seconds: 300
+      threads: 10
+      location: europe-west9
