@@ -19,6 +19,7 @@ setup(
         "pyarrow",
         "connectorx",
         "loguru",
+        "upstash_redis",
         "dbt-snowflake<1.9",
         "dbt-snowflake<1.9",
         "dbt-clickhouse<1.9",

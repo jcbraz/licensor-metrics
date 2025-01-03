@@ -1,0 +1,4 @@
+.env
+.env*
+.venv/
+pipeline/**/__pycache__
